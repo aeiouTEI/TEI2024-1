@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El prefacio de Franciso Vera</title>
+            <author>Tomás Carrasquilla</author>
+            <editor>JEHA</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Sin fines lucratios</p>
+         </publicationStmt>
+               <sourceDesc>
+                <p>Biblioteca Central Universidad de Antioquia</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+            <div xml:id="C1">
+                <p> La señora <persName>forastera</persName>, de temporada en el <placeName>poblacho</placeName>, obtuvo, 
+            apenas fue conocida, la gran fama como narradora, no tanto 
+            por su repertorio y su verba pintoresca, cuanto por la mímica 
+            y los remedos con que solía─por dar realce a sus 
+            anécdotas─transfigurar la fealdd caricaturesca de su vejez.</p>
+            </div>
+          
+            <div xml:id="C2">
+            <p>Una noche de <persName>tertukia</persName>tertulia, casa de uno de los caciques de más fuste, 
+            la instaron, de sobremesa, para que contara algo 
+            de lo bueno y  divertido. No se hizo rogar la vivaracha abuela: Sacó su silla 
+            al centro de la sala, y antes de sentarse, declamó muy airosa y 
+            oratoria:</p>
+            </div>
+      </body>
+  </text>
+</TEI>
